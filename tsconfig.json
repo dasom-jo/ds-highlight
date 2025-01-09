@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2015", // 또는 "ES6"
+    "module": "ESNext",
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationDir": "./dist/types",
+    "outDir": "./dist",
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*", "cypress/**/*.ts"], // Cypress 디렉토리 포함
+  "exclude": ["node_modules", "dist"]
+}
