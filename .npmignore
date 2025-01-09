@@ -1,0 +1,12 @@
+# 제외할 파일 및 폴더
+node_modules
+.storybook
+cypress
+stories
+src/**/*.stories.*
+src/**/*.test.*
+*.map
+package-lock.json
+rollup.config.mjs
+tsconfig.json
+.gitignore
