@@ -24,5 +24,9 @@ export default {
     typescript({ tsconfig: './tsconfig.json' }), // TypeScript 지원
     terser(), // 코드 압축
   ],
-  external: ['react', 'react-dom'], // 외부 의존성
+  external: ['react', 'react-dom',
+    /\.stories\.(js|ts|tsx)$/, // stories 파일 제외
+    '.storybook', // .storybook 폴더 제외
+    'cypress', // cypress 폴더 제외
+  ], // 외부 의존성
 };

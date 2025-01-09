@@ -1,3 +1,14 @@
 node_modules
 
 *storybook.log
+.storybook
+cypress
+stories
+*.stories.*
+*.config.*
+src/
+tsconfig.json
+*.map
+.storybook/
+cypress/
+stories/
